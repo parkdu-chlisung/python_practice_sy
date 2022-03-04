@@ -19,8 +19,6 @@ for i in range(0,len(height)-1,1):
     print("YES")
     break
 
-# for i in range(0,len(height),1):
-#     print(height[i], end=" ")
 
 
 
