@@ -5,9 +5,9 @@
 
 x = (tuple(x) for x in input().split())
 
-a = int(x.count("원영"))
-b = int(x.count("은비"))
-c = int(x.count("채연"))
+a = x.count("원영")
+b = x.count("은비")
+c = x.count("채연")
 
 
 if a > b and a > c:
