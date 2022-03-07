@@ -13,7 +13,5 @@ num = int(n)
 
 while(star <= num*2-1):
     print(" "*(num-blank),"*"*star," "*(num-blank))
-    # print("*"*star)
-    # print(" "*num-blank)
     star += 2
     blank += 1

@@ -6,3 +6,6 @@ d = {'height' : 180, 'weight' : 78, 'weight' : 84, 'temparture' : 36, 'eyesight'
 print(d['weight'])
 
 # 84
+
+# 중복되면, 뒤에 입력되거나 새로 입력된 값이 나온다.
+# 딕셔너리는 키의 중복이 안되니까

@@ -8,7 +8,7 @@ hour = '11'
 minute = '34'
 second = '27'
 
-print(year, month, day, )
-print(hour, minute, second, )
+print(year, month, day, end=" ", sep="/")
+print(hour, minute, second, sep=":")
 
-print(year,"/",month,"/",day," ",hour,":",minute,":",second)
+# sep과 end를 사용.. 해라 !!
