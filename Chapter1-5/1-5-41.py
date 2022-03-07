@@ -1,8 +1,15 @@
-# 문제 41 : 소수판별
+# 문제 41 : 소수판별 *****
 x = int(input())
-for i in range(2,x-1,1):
-    if x % i == 0:
+for i in range(3,x):
+    if x <= 1:
         print("NO")
         break
-    print("YES")
-    break
+    elif x ==2:
+        print("NO")
+        break
+    elif x % i == 0:
+        print("NO")
+        break
+    else:
+        print("YES")
+        break
