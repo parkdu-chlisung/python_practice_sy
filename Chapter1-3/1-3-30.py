@@ -6,5 +6,5 @@
 sentence = input()
 search = input()
 
-if search.find(sentence):
-    print(sentence.index(search))
+if search in sentence:
+    print(sentence.find(search))
