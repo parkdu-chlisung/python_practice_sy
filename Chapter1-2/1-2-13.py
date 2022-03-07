@@ -4,5 +4,19 @@
 
 l = ['수성', '금성', '지구', '화성', '목성', '토성', '천왕성', '해왕성']
 
-n = input()
-print(l[int(n)-1])
+n = input('n번째 행성 : ')
+if n.isnumeric():
+    n = int(n)
+    if n >=1:
+        if n <= 8:
+            print(l[n-1])
+        else:
+            print('총 8개의 행성밖에 없습니다.')
+    elif n == 0:
+        print('0번째 행성은 없습니다.')
+    else :
+        print(l[n])
+    # 이 else문이 왜 필요한지..?
+else:
+    print("숫자를 입력해주세요")
+    # 음수 입력시에 이게 출력됨 -> 즉, isnumeric에서 음수는 False 취급한다는 것

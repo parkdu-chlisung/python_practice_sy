@@ -13,3 +13,18 @@ print(int(avg))
 # 변수1, 변수2 = input().split(기준문자)
 # 변수1, 변수2 = input(문자열).split()
 # 변수1, 변수2 = input(문자열).split(기준문자)
+
+# 소수점 버리니까 //로 나누면 됨.
+# 엄청 간단하군
+# list, map은 외우다시피 자주 사용함!
+
+data = sum(list(map(int, input().split())))//3
+data
+
+list(map(lambda x:x**2,[10,20,30]))
+# 이렇게도 사용 가능 lambda 사용해서
+
+def 제곱(x):
+    return x**2
+
+list(map(제곱,[10,20,30]))

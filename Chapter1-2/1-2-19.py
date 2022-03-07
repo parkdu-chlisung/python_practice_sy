@@ -3,3 +3,6 @@
 
 a, b = map(int, input().split())
 print(a**b)
+
+data = list(map(float, input().split()))
+print(data[0]**data[1])

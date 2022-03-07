@@ -3,12 +3,16 @@
 # 주어진 소스 코드를 수정해선 안됩니다.
 
 
-class Wizard():
+class Wizard:
+    # 매직매소드
+    # init은 클래스가 인스턴스가 될때 무조건 처음에 한 번 실행하는 것
+    # 인스턴스화 될 때, 인스턴스의 영역을 나타내는 것이 self임 -> 반드시 필요
     def __init__(self,health,mana,armor):
-        self.health = health
+        self.health = health #self.health에 입력된 health 넣기
         self.mana = mana
         self.armor = armor
 
+    # 매서드는 self가 꼭 있어야함
     def attack(self):
         print("파이어볼")
 
