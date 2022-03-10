@@ -1,4 +1,4 @@
-# **python_practic**
+# **python_practice**
 - 파이썬 100제 문제 풀이를 위한 gitHub Repo
 <br><br>
 
