@@ -1,7 +1,11 @@
 # 문제 46 : str 자료형의 응용
 
-x = list(input())
+
+x = ''
 total = 0
+
+for i in range(1,101):
+    x += str(i)
 
 for i in x:
     total += int(i)

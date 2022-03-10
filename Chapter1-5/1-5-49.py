@@ -1,5 +1,5 @@
 # 문제 48 : 최댓값 구하기
+data = list(map(int, input().split()))
 
-x = list(int(x), for x in input().split())
-
-print(x)
+print(sorted(data, reverse=True)[0]) # ** ?.?
+print(max(data))

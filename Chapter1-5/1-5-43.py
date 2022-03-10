@@ -11,7 +11,14 @@ while (True) :
         l.append(int(x%2))
         break
 
+# l.reverse()
+# print(''.join(l))
+# 이것도 가능
+
 l = list(reversed(l))
 
 for i in l:
     print(i, end="")
+
+
+# bin(13) -> 빌트인펑션에 있음

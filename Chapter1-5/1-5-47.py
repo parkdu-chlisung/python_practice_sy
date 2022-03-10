@@ -10,5 +10,12 @@ people = [
 ]
 
 people = set(people)
+# set으로 자료형을 변환하면 중복을 제거할 수 있음
 
-print(len(people))
+# print(len(people))
+
+# 이름은 같은데, 번호가 다를수도 있으니까
+d= {}
+for i in people:
+    d[i[1]] = i[0] # 번호를 앞(key)에, 이름을 뒤(value)에
+print(d)
